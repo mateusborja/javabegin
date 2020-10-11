@@ -33,7 +33,7 @@ public class Cliente {
     }
     
     public String toString() {
-        return "Seu nome é =>" + nome + " e seu \n Endereço é: =>" + endereco;
+        return "Seu nome é: \n=> "+ nome + "\nE seu Endereço é: \n=> " + endereco;
     }
 
 }
