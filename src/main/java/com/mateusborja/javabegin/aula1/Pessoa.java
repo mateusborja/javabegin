@@ -15,10 +15,27 @@ package com.mateusborja.javabegin.aula1;
         this.nome = nome;
     }
 
+    public String getNome() {
+        return nome;
+    }
     
-    
-    
+    public int getCodigo() {
+        return codigo;
+    }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    
+    
+    
+    
+   
     
     
 }
