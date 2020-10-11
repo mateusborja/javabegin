@@ -6,13 +6,12 @@ package com.mateusborja.javabegin.aula2;
  * @author mateus.borja
  */
 public class Cliente {
-    
+
     private String nome;
     private String endereco;
-    
-    
-    
-    public Cliente (String nome, String endereo) {
+
+    public Cliente(String nome,
+            String endereo) {
         this.nome = nome;
         this.endereco = endereo;
     }
@@ -32,12 +31,5 @@ public class Cliente {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
 }
