@@ -27,7 +27,7 @@ public class PessoaJuridica extends Cliente {
     }
     
     public String toString() {
-        return super.toString() + "seu CPNJ é: => ";
+        return super.toString() + "\nE seu CPNJ é: \n=> " +cnpj;
     }
     
     

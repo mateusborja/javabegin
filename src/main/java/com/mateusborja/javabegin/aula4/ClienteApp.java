@@ -23,6 +23,7 @@ public class ClienteApp {
         //System.out.println("O nome da pessoa é =>" + clientepj1.getNome() + "\n" + "Seu Endereço é: => " + clientepj1.getEndereco() + "\n" + "E seu CPF são: =>" + clientepj1.getCnpj());
    
         System.out.println(clientepf1.toString());
+        System.out.println(clientepj1.toString());
     
     }
     

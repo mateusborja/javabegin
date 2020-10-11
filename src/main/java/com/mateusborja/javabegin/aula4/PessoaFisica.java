@@ -23,7 +23,7 @@ public class PessoaFisica extends Cliente{
     }
     
     public String toString() {
-        return super.toString() + "Seu CPF é: =>" +cpf;
+        return super.toString() + "\nE seu CPF é: \n=>" +cpf;
     }
     
     
