@@ -10,12 +10,20 @@ public class ContaCorreteApp {
         
         ContaCorrente contacomum = new ContaCorrente(0230, 8000461);
         ContaCorrente contacomumc1 = new ContaCorrente("Joao Paulo", 0230, 8000461);
+        
+        contacomum.getAgencia();
+        contacomum.getConta();
+
+        contacomum.setCliente("Mateus");
                 
-        contacomumc1.setCliente("Mateus Borja");
+        ContaCorrente c1 = new ContaCorrente();
+        c1.setCliente("Joao");
+        
+        System.out.println("Sua agencia é: => " + contacomum.getAgencia() + "e sua conta é: => " + contacomum.getConta());
         
         System.out.println(contacomum.getCliente());
         
-        System.out.println();
+        System.out.println(c1.getCliente());
         
         
     }

@@ -9,38 +9,40 @@ package com.mateusborja.javabegin.aula3;
 public class ContaCorrente {
     
     private String cliente;
-    private int numero, agencia;
+    private int conta, agencia;
     private float limite;
     
     
     public ContaCorrente(int numero, int agencia) {
-        this.numero = numero;
+        this.conta = numero;
         this.agencia = agencia;
     }
     
     public ContaCorrente(String cliente, int numero, int agencia) {
         this.cliente = cliente;
-        this.numero = numero;
+        this.conta = numero;
         this.agencia = agencia;
     }
     
     public ContaCorrente(String cliente, int numero, int agencia, float limite) {
         this.cliente = cliente;
-        this.numero = numero;
+        this.conta = numero;
         this.agencia = agencia;
         this.limite = limite;
     }
+
+
     
-    public void ContaCorrente() {
-        return;
+    public ContaCorrente() {
     }
+
 
     public String getCliente() {
         return cliente;
     }
 
-    public int getNumero() {
-        return numero;
+    public int getConta() {
+        return conta;
     }
 
     public int getAgencia() {
@@ -55,8 +57,8 @@ public class ContaCorrente {
         this.cliente = cliente;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public void setConta(int conta) {
+        this.conta = conta;
     }
 
     public void setAgencia(int agencia) {
