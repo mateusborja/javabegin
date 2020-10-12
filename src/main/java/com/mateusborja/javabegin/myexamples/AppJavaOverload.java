@@ -20,6 +20,10 @@ public class AppJavaOverload {
         double sumApp3 = s1.sum(12.3, 13.2);
         System.out.println(sumApp3);
         
+        double sumApp4 = s1.sum(14.3, 12.3, 22.5);
+        System.out.println(sumApp4);
+        
+        
         
         
         
