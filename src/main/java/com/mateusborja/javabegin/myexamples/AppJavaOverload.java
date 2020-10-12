@@ -23,11 +23,6 @@ public class AppJavaOverload {
         double sumApp4 = s1.sum(14.3, 12.3, 22.5);
         System.out.println(sumApp4);
         
-        
-        
-        
-        
-        
     }
     
 }
