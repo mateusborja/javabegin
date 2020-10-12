@@ -69,9 +69,9 @@ public class ContaCorrente {
         this.limite = limite;
     }
     
-
-
-    
+    public String toString( ) {
+        return "Cliente: => " + cliente + " Número da conta: => " + conta + " Agência: => " + agencia +" Limite da conta: => " + limite;
+    }
     
     
 }
