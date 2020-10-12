@@ -11,11 +11,16 @@ public class AppJavaOverload {
         
         JavaOverload s1 = new JavaOverload();
         
-        int sumApp = s1.sum(55, 45);
-        System.out.println(sumApp);
-        
-        int sumApp1 = s1.sum(30, 10, 60);
+        int sumApp1 = s1.sum(55, 45);
         System.out.println(sumApp1);
+        
+        int sumApp2 = s1.sum(30, 10, 60);
+        System.out.println(sumApp2);
+        
+        double sumApp3 = s1.sum(12.3, 13.2);
+        System.out.println(sumApp3);
+        
+        
         
         
         

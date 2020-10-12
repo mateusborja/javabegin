@@ -18,6 +18,11 @@ public class JavaOverload {
         return x + y + z;
     }
     
+    double sum (double x, double y) {
+        System.out.println("double sum (double x, double y)");
+        return x + y;
+    }
+    
     
     
     
