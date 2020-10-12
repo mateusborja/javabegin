@@ -10,8 +10,7 @@ public class Cliente {
     private String nome;
     private String endereco;
 
-    public Cliente(String nome,
-            String endereo) {
+    public Cliente(String nome, String endereo) {
         this.nome = nome;
         this.endereco = endereo;
     }
