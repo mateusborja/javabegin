@@ -17,12 +17,12 @@ public class ContaCorreteApp {
         contacomum.getConta();
 
                 
-        c1.setCliente("Joao");
+        c1.setCliente("Joao Honório");
         c1.setAgencia(0230);
         c1.setConta(8000461);
         c1.setLimite(10000);
         
-        System.out.println("Sua agencia é: => " + contacomum.getAgencia() + "e sua conta é: => " + contacomum.getConta());
+        //System.out.println("Sua agencia é: => " + contacomum.getAgencia() + "e sua conta é: => " + contacomum.getConta());
         
         //System.out.println(contacomum.getCliente());
         

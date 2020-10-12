@@ -70,7 +70,7 @@ public class ContaCorrente {
     }
     
     public String toString( ) {
-        return "Cliente: => " + cliente + " Número da conta: => " + conta + " Agência: => " + agencia +" Limite da conta: => " + limite;
+        return "Nome do Cliente: => " + cliente + "\nNúmero da conta: => " + conta + "\nNúmero da Agência: =>" + agencia + "\nLimite da conta: =" + limite;
     }
     
     
